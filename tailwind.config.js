@@ -1,0 +1,95 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
+      "./public/index.html",
+    ],
+    darkMode: 'class',
+    theme: {
+      extend: {
+        fontFamily: {
+          'poppins': ['Poppins', 'sans-serif'],
+          'fira': ['Fira Sans', 'sans-serif'],
+          'inter': ['Inter', 'sans-serif'],
+        },
+        colors: {
+          primary: {
+            50: '#f5f3ff',
+            100: '#ede9fe',
+            200: '#ddd6fe',
+            300: '#c4b5fd',
+            400: '#a78bfa',
+            500: '#8b5cf6',
+            600: '#7c3aed',
+            700: '#6d28d9',
+            800: '#5b21b6',
+            900: '#4c1d95',
+            950: '#2e1065',
+          },
+          secondary: {
+            50: '#eef2ff',
+            100: '#e0e7ff',
+            200: '#c7d2fe',
+            300: '#a5b4fc',
+            400: '#818cf8',
+            500: '#6366f1',
+            600: '#4f46e5',
+            700: '#4338ca',
+            800: '#3730a3',
+            900: '#312e81',
+            950: '#1e1b4b',
+          },
+          light: {
+            background: '#f8fafc',
+            card: '#ffffff',
+            text: '#1e293b',
+            border: '#e2e8f0',
+          },
+          dark: {
+            background: '#0f172a',
+            card: '#1e293b',
+            text: '#f8fafc',
+            border: '#334155',
+          },
+        },
+        boxShadow: {
+          'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
+          'glass-hover': '0 8px 32px rgba(0, 0, 0, 0.15)',
+        },
+        backdropBlur: {
+          'glass': '8px',
+        },
+        borderRadius: {
+          'xl': '1rem',
+          '2xl': '1.5rem',
+          '3xl': '2rem',
+        },
+        animation: {
+          'float': 'float 3s ease-in-out infinite',
+          'wave': 'wave 2.5s ease-in-out infinite',
+          'spin-slow': 'spin 8s linear infinite',
+          'pulse-slow': 'pulse 4s linear infinite',
+        },
+        keyframes: {
+          float: {
+            '0%, 100%': { transform: 'translateY(0)' },
+            '50%': { transform: 'translateY(-10px)' },
+          },
+          wave: {
+            '0%': { transform: 'rotate(0deg)' },
+            '10%': { transform: 'rotate(14deg)' },
+            '20%': { transform: 'rotate(-8deg)' },
+            '30%': { transform: 'rotate(14deg)' },
+            '40%': { transform: 'rotate(-4deg)' },
+            '50%': { transform: 'rotate(10deg)' },
+            '60%': { transform: 'rotate(0deg)' },
+            '100%': { transform: 'rotate(0deg)' },
+          },
+        },
+      },
+    },
+    plugins: [
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/typography'),
+    ],
+  }
