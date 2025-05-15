@@ -14,7 +14,7 @@ const NavItem = ({ to, label, mobile = false, setMobileMenuOpen }) => {
       to={to}
       spy={true}
       smooth={true}
-      offset={-60}
+      offset={-70}
       duration={800}
       onClick={handleClick}
       activeClass="text-primary-600 dark:text-primary-400" // Active link color

@@ -29,7 +29,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative py-5 md:py-5 bg-gray-50 dark:bg-gray-900 overflow-hidden"
+      className="relative p-5 py-5 md:py-5 bg-gray-50 dark:bg-gray-900 overflow-hidden"
     >
       {/* Decorative background blur circles */}
       <div className="absolute top-10 -left-32 w-80 h-80 bg-blue-400 opacity-30 rounded-full filter blur-3xl mix-blend-multiply dark:bg-blue-900"></div>
