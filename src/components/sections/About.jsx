@@ -21,9 +21,9 @@ const StatCard = ({ icon, count, label }) => (
 
 const About = () => {
   const stats = [
-    { icon: "🚀", count: "10+", label: "Projects Completed" },
+    { icon: "🚀", count: "6+", label: "Projects Completed" },
     { icon: "🔧", count: "5+", label: "Technologies Mastered" },
-    { icon: "⭐", count: "3+", label: "Years of Experience" },
+    { icon: "⭐", count: "2+", label: "Years of Experience" },
   ];
 
   return (

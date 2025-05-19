@@ -349,17 +349,17 @@ const Hero = () => {
               }}
             >
               <SocialLink 
-                href="https://github.com/yourusername" 
+                href="https://github.com/pranavpawar11" 
                 icon="github" 
                 delay={0.6}
               />
               <SocialLink 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/pranav-pawar-4a37092b7/" 
                 icon="linkedin" 
                 delay={0.7}
               />
               <SocialLink 
-                href="mailto:your.email@example.com" 
+                href="mailto:pranavpawar745@gmail.com" 
                 icon="email" 
                 delay={0.8}
               />

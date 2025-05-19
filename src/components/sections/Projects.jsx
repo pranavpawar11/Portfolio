@@ -55,8 +55,8 @@ const projectsData = [
       "Designed to showcase my skills and projects with a clean, interactive UI. Includes smooth animations, responsive layouts, and customizable themes (light/dark mode). Built with React for dynamic rendering and Tailwind CSS for utility-first styling.",
     thumbnail: portfolio1,
     images: [portfolio1, portfolio2, portfolio3, portfolio4],
-    liveUrl: "https://your-portfolio-link.com", // Add your live URL
-    githubUrl: "https://github.com/username/portfolio", // Add your GitHub URL
+    liveUrl: "#", // Add your live URL
+    githubUrl: "https://github.com/pranavpawar11/Portfolio", // Add your GitHub URL
     tags: ["Frontend"],
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     date: "2024",
@@ -70,8 +70,8 @@ const projectsData = [
       "A comprehensive financial management app supporting CRUD operations for transactions, budget tracking, and data visualization. Features JWT authentication, responsive UI, and MongoDB for scalable data storage.",
     thumbnail: cashflow1,
     images: [cashflow1, cashflow2, cashflow3, cashflow4],
-    liveUrl: "https://cashflow-demo.com", // Add live URL
-    githubUrl: "github.com/pranavpawar11/cashflow", // From your resume
+    liveUrl: "#", // Add live URL
+    githubUrl: "https://github.com/pranavpawar11/Cashflow", // From your resume
     tags: ["Fullstack"],
     tech: ["MERN Stack", "React", "Node.js", "MongoDB"],
     date: "2024",
@@ -85,8 +85,8 @@ const projectsData = [
       "Developed for college events, this app simulates IPL auctions with live bidding, team budgets, and admin controls. Features WebSockets for real-time updates, player statistics, and squad balancing tools.",
     thumbnail: ipl1,
     images: [ipl1, ipl2, ipl3, ipl4],
-    liveUrl: "https://ipl-auction-demo.com", // Add live URL
-    githubUrl: "github.com/pranavpawar11/ipl-auction", // Add GitHub URL
+    liveUrl: "#", // Add live URL
+    githubUrl: "https://github.com/pranavpawar11/AuctionApp", // Add GitHub URL
     tags: ["Fullstack", "Real-time"],
     tech: ["React", "Node.js", "Express.js", "WebSockets", "MongoDB"],
     date: "2024",
@@ -100,8 +100,8 @@ const projectsData = [
       "Integrated FastAPI with Python ML models to forecast stock demand. Includes RESTful APIs, pagination, and MongoDB for product/sales data. Designed for scalability and dynamic content delivery.",
     thumbnail: storeitem1,
     images: [storeitem1, storeitem2, storeitem3, storeitem4],
-    liveUrl: "https://storeitem-demo.com", // Add live URL
-    githubUrl: "github.com/pranavpawar11/storeitem", // From your resume
+    liveUrl: "#", // Add live URL
+    githubUrl: "https://github.com/pranavpawar11/StoreItem", // From your resume
     tags: ["Fullstack", "Machine Learning"],
     tech: ["MERN", "FastAPI", "Python", "MongoDB"],
     date: "2024",
@@ -115,8 +115,8 @@ const projectsData = [
       "A multi-role web app for buying/selling stationery. Includes product listings, order management, and secure transactions using PHP/MySQL. Designed with mobile-first responsive UI.",
     thumbnail: studentmart1,
     images: [studentmart1, studentmart2, studentmart3, studentmart4],
-    liveUrl: "https://studentmart-demo.com", // Add live URL
-    githubUrl: "github.com/pranavpawar11/studentmart", // From your resume
+    liveUrl: "#", // Add live URL
+    githubUrl: "https://github.com/pranavpawar11/StudentMart", // From your resume
     tags: ["Fullstack"],
     tech: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     date: "2023",
