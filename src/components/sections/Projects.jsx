@@ -35,6 +35,11 @@ import studentmart2 from "../../assets/images/studentmart-2.png";
 import studentmart3 from "../../assets/images/studentmart-3.png";
 import studentmart4 from "../../assets/images/studentmart-4.png";
 
+import chatapp1 from "../../assets/images/chatapp-1.png";
+import chatapp2 from "../../assets/images/chatapp-2.png";
+import chatapp3 from "../../assets/images/chatapp-3.png";
+import chatapp4 from "../../assets/images/chatapp-4.png";
+
 const categoryFilters = [
   "All",
   "Fullstack",
@@ -55,7 +60,7 @@ const projectsData = [
       "Designed to showcase my skills and projects with a clean, interactive UI. Includes smooth animations, responsive layouts, and customizable themes (light/dark mode). Built with React for dynamic rendering and Tailwind CSS for utility-first styling.",
     thumbnail: portfolio1,
     images: [portfolio1, portfolio2, portfolio3, portfolio4],
-    liveUrl: "#", // Add your live URL
+    // liveUrl: "#",
     githubUrl: "https://github.com/pranavpawar11/Portfolio", // Add your GitHub URL
     tags: ["Frontend"],
     tech: ["React", "Tailwind CSS", "Framer Motion"],
@@ -70,9 +75,9 @@ const projectsData = [
       "A comprehensive financial management app supporting CRUD operations for transactions, budget tracking, and data visualization. Features JWT authentication, responsive UI, and MongoDB for scalable data storage.",
     thumbnail: cashflow1,
     images: [cashflow1, cashflow2, cashflow3, cashflow4],
-    liveUrl: "#", // Add live URL
+    // liveUrl: "#",
     githubUrl: "https://github.com/pranavpawar11/Cashflow", // From your resume
-    tags: ["Fullstack"],
+    tags: ["Fullstack", "Backend"],
     tech: ["MERN Stack", "React", "Node.js", "MongoDB"],
     date: "2024",
   },
@@ -85,9 +90,9 @@ const projectsData = [
       "Developed for college events, this app simulates IPL auctions with live bidding, team budgets, and admin controls. Features WebSockets for real-time updates, player statistics, and squad balancing tools.",
     thumbnail: ipl1,
     images: [ipl1, ipl2, ipl3, ipl4],
-    liveUrl: "#", // Add live URL
+    // liveUrl: "#",
     githubUrl: "https://github.com/pranavpawar11/AuctionApp", // Add GitHub URL
-    tags: ["Fullstack", "Real-time"],
+    tags: ["Frontend", "Real-time"],
     tech: ["React", "Node.js", "Express.js", "WebSockets", "MongoDB"],
     date: "2024",
   },
@@ -100,7 +105,7 @@ const projectsData = [
       "Integrated FastAPI with Python ML models to forecast stock demand. Includes RESTful APIs, pagination, and MongoDB for product/sales data. Designed for scalability and dynamic content delivery.",
     thumbnail: storeitem1,
     images: [storeitem1, storeitem2, storeitem3, storeitem4],
-    liveUrl: "#", // Add live URL
+    // liveUrl: "#",
     githubUrl: "https://github.com/pranavpawar11/StoreItem", // From your resume
     tags: ["Fullstack", "Machine Learning"],
     tech: ["MERN", "FastAPI", "Python", "MongoDB"],
@@ -115,11 +120,33 @@ const projectsData = [
       "A multi-role web app for buying/selling stationery. Includes product listings, order management, and secure transactions using PHP/MySQL. Designed with mobile-first responsive UI.",
     thumbnail: studentmart1,
     images: [studentmart1, studentmart2, studentmart3, studentmart4],
-    liveUrl: "#", // Add live URL
+    // liveUrl: "#",
     githubUrl: "https://github.com/pranavpawar11/StudentMart", // From your resume
-    tags: ["Fullstack"],
+    tags: ["Fullstack", "Backend"],
     tech: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     date: "2023",
+  },
+  {
+    id: 6,
+    title: "ChatApp",
+    description:
+      "Full-stack MERN ChatApp with real-time messaging, group/1-1 chat, file sharing, and dark mode.",
+    longDescription:
+      "A modern, responsive chat application built using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS and Socket.IO. It supports real-time messaging, typing indicators, group chats, one-to-one private chats, file sharing, and user profile management. Designed with a responsive mobile-first layout and a toggleable dark mode for enhanced user experience.",
+    thumbnail: chatapp1,
+    images: [chatapp1, chatapp2, chatapp3, chatapp4],
+    liveUrl: "https://teal-lily-a2c655.netlify.app/",
+    githubUrl: "https://github.com/pranavpawar11/ChatApp",
+    tags: ["Fullstack", "Real-Time"],
+    tech: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "Socket.IO",
+      "Tailwind CSS",
+    ],
+    date: "2025",
   },
 ];
 
